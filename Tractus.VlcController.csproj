@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PackageIcon>logo1.png</PackageIcon>
+    <ApplicationIcon>logo1.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="IcoMoon-Ultimate.ttf" />
+    <None Remove="icomoon.ttf" />
+    <None Remove="logo1.ico" />
+    <None Remove="logo1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elias.Wpf.Common" Version="1.0.0" />
+    <PackageReference Include="LibVLCSharp" Version="3.6.4" />
+    <PackageReference Include="LibVLCSharp.WPF" Version="3.6.4" />
+    <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icomoon.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="logo1.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="logo1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+</Project>
