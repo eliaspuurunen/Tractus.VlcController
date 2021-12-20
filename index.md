@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+# Tractus VLC Controller
 
-You can use the [editor on GitHub](https://github.com/eliaspuurunen/Tractus.VlcController/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# [Download the Latest Release](https://github.com/eliaspuurunen/Tractus.VlcController/releases)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The Tractus VLC Controller is a simple wrapper around the VLC Media Player for Windows 10 and up. It allows for fine-grain control over video playback. 
 
-### Markdown
+- Pause on last frame by default
+- Keep video playback window separate, with no OSD, no resizing when video resolution changes
+- Enable "blackout" of videos
+- Enable a "holding slide" over top of videos
+- Volume slider from 0% to 200%
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+With auto-play enabled, this can be used as a basic digital signage application.
 
-```markdown
-Syntax highlighted code block
+We created this product to have fine-graned control over how videos are shared during Zoom and Teams events. We found that the VLC app, while fantastic, is geared toward consumer video playback, not live broadcast.
 
-# Header 1
-## Header 2
-### Header 3
+Created by Tractus Events - https://www.tractus.ca.
 
-- Bulleted
-- List
+## Support this Project
 
-1. Numbered
-2. List
+You can support this project with a ⭐, report an issue, or placing a pull request.
 
-**Bold** and _Italic_ and `Code` text
+You can also support by spreading the word! Share this utility with your colleagues and friends.
 
-[Link](url) and ![Image](src)
-```
+## Commercial Support
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+**Commercial Support is available.** Contact info@tractus.ca for more information.
 
-### Jekyll Themes
+## Build from Source
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/eliaspuurunen/Tractus.VlcController/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This project target .NET 6 and WPF on Windows 10 and above. To build, please install Visual Studio 2022.
 
-### Support or Contact
+## Icons
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Icons used in this app are from the Icomoon project. https://icomoon.io/#icons-icomoon
+
+## Libraries Used
+
+This project uses the following (awesome) libraries:
+
+- [LibVLCSharp](https://code.videolan.org/videolan/LibVLCSharp)
+- [Elias.Wpf.Common](https://www.nuget.org/packages/Elias.Wpf.Common/1.0.0)
