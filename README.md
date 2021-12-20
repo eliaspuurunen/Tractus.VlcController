@@ -14,6 +14,8 @@ The Tractus VLC Controller is a simple wrapper around the VLC Media Player for W
 
 With auto-play enabled, this can be used as a basic digital signage application.
 
+Created by Tractus Events - https://www.tractus.ca.
+
 ## Support this Project
 
 You can support this project with a ⭐, report an issue, or placing a pull request.
