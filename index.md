@@ -26,10 +26,6 @@ You can also support by spreading the word! Share this utility with your colleag
 
 **Commercial Support is available.** Contact info@tractus.ca for more information.
 
-## Build from Source
-
-This project target .NET 6 and WPF on Windows 10 and above. To build, please install Visual Studio 2022.
-
 ## Icons
 
 Icons used in this app are from the Icomoon project. https://icomoon.io/#icons-icomoon
