@@ -32,3 +32,9 @@ This project target .NET 6 and WPF on Windows 10 and above. To build, please ins
 
 Icons used in this app are from the Icomoon project. https://icomoon.io/#icons-icomoon
 
+## Libraries Used
+
+This project uses the following (awesome) libraries:
+
+- [LibVLCSharp](https://code.videolan.org/videolan/LibVLCSharp)
+- [Elias.Wpf.Common](https://www.nuget.org/packages/Elias.Wpf.Common/1.0.0)
